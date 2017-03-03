@@ -1,0 +1,127 @@
+{
+  "System.Single TrunkLateralSignedAngle": {
+    "AttributeName": "Trunk LatBend R/L",
+    "Order": 1,
+    "IsSignNegative": false
+  },
+  "System.Single TrunkRotationSignedAngle": {
+    "AttributeName": "Trunk Rot R/L",
+    "Order": 2,
+    "IsSignNegative": false
+  },
+  "System.Single TrunkFlexionSignedAngle": {
+    "AttributeName": "Trunk F/E",
+    "Order": 0,
+    "IsSignNegative": false
+  },
+  "System.Single RightElbowFlexionSignedAngle": {
+    "AttributeName": "RElbow F/E",
+    "Order": 17,
+    "IsSignNegative": false
+  },
+  "System.Single RightForeArmPronationSignedAngle": {
+    "AttributeName": "RForeArm Pro/Sup",
+    "Order": 19,
+    "IsSignNegative": false
+  },
+  "System.Single RightShoulderFlexionSignedAngle": {
+    "AttributeName": "RShould F/E",
+    "Order": 3,
+    "IsSignNegative": false
+  },
+  "System.Single RightShoulderVerticalAbductionSignedAngle": {
+    "AttributeName": "RShould V Add/Abd",
+    "Order": 5,
+    "IsSignNegative": false
+  },
+  "System.Single RightShoulderHorizontalAbductionSignedAngle": {
+    "AttributeName": "RShould H Add/Abd",
+    "Order": 7,
+    "IsSignNegative": false
+  },
+  "System.Single RightShoulderRotationSignedAngle": {
+    "AttributeName": "RShould Rot",
+    "Order": 9,
+    "IsSignNegative": false
+  },
+  "System.Single LeftElbowFlexionSignedAngle": {
+    "AttributeName": "LElbow F/E",
+    "Order": 18,
+    "IsSignNegative": false
+  },
+  "System.Single LeftForeArmPronationSignedAngle": {
+    "AttributeName": "LForeArm Pro/Sup",
+    "Order": 20,
+    "IsSignNegative": false
+  },
+  "System.Single LeftShoulderFlexionSignedAngle": {
+    "AttributeName": "LShould F/E",
+    "Order": 4,
+    "IsSignNegative": false
+  },
+  "System.Single LeftShoulderVerticalAbductionSignedAngle": {
+    "AttributeName": "LShould V Add/Abd",
+    "Order": 6,
+    "IsSignNegative": false
+  },
+  "System.Single LeftShoulderHorizontalAbductionSignedAngle": {
+    "AttributeName": "LShould H Add/Abd",
+    "Order": 8,
+    "IsSignNegative": false
+  },
+  "System.Single LeftShoulderRotationSignedAngle": {
+    "AttributeName": "LShould Rot",
+    "Order": 10,
+    "IsSignNegative": false
+  },
+  "System.Single RightKneeFlexionSignedAngle": {
+    "AttributeName": "RKnee F/E",
+    "Order": 21,
+    "IsSignNegative": false
+  },
+  "System.Single RightKneeRotationSignedAngle": {
+    "AttributeName": "RKnee Rot",
+    "Order": 23,
+    "IsSignNegative": false
+  },
+  "System.Single RightHipFlexionSignedAngle": {
+    "AttributeName": "RHip F/E",
+    "Order": 11,
+    "IsSignNegative": false
+  },
+  "System.Single RightHipAbductionSignedAngle": {
+    "AttributeName": "RHip Add/Abd",
+    "Order": 13,
+    "IsSignNegative": false
+  },
+  "System.Single RightHipRotationSignedAngle": {
+    "AttributeName": "RHip Int/Ext Rot",
+    "Order": 15,
+    "IsSignNegative": false
+  },
+  "System.Single LeftKneeFlexionSignedAngle": {
+    "AttributeName": "LKnee F/E",
+    "Order": 22,
+    "IsSignNegative": false
+  },
+  "System.Single LeftKneeRotationSignedAngle": {
+    "AttributeName": "LKnee Rot",
+    "Order": 24,
+    "IsSignNegative": false
+  },
+  "System.Single LeftHipFlexionSignedAngle": {
+    "AttributeName": "LHip F/E",
+    "Order": 12,
+    "IsSignNegative": false
+  },
+  "System.Single LeftHipAbductionSignedAngle": {
+    "AttributeName": "LHip Add/Abd",
+    "Order": 14,
+    "IsSignNegative": false
+  },
+  "System.Single LeftHipRotationSignedAngle": {
+    "AttributeName": "LHip Int/Ext Rot",
+    "Order": 16,
+    "IsSignNegative": false
+  }
+}

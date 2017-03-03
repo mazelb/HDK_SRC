@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - SubsegmentType_UpperSpine
+  - SubsegmentType_RightUpperArm
+  - SubsegmentType_RightForeArm
+  - SubsegmentType_LeftUpperArm
+  - SubsegmentType_LeftForeArm
+  - SubsegmentType_RightThigh
+  - SubsegmentType_RightCalf
+  - SubsegmentType_LeftThigh
+  - SubsegmentType_LeftCalf
+  - SubsegmentType_LowerSpine
+  - debug
+  - InformationPanel
+  - UiCanvas
+  - Controllers
+  - MainMenuController
+  - SubsegmentType_LeftThigh2D
+  - SubsegmentType_RightThigh2D
+  - SubsegmentType_LeftCalf2D
+  - SubsegmentType_RightCalf2D
+  - CamLookAtTarget
+  - PanelCameraGroup
+  - CameraGroup
+  - RenderedBodyGroup
+  - layout
+  - LoadingPanel
+  - ApplicationManagement
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - model
+  - 2dModel
+  - UiEffect
+  - Background
+  - RenderedBody0
+  - RenderedBody1
+  - RenderedBody2
+  - RenderedBody3
+  - RenderedBody4
+  - RenderedBody5
+  - RenderedBody6
+  - BackgroundAndRightSideObjects
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - DemoArcModel2
+  - DemoArcAngle
+  - tempModel
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: AngleLayer
+    uniqueID: 2955832821
+    locked: 0
+  - name: AxisLayer
+    uniqueID: 4147347635
+    locked: 0
+  - name: SpriteLayer
+    uniqueID: 1422400563
+    locked: 0

@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &180718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22462994}
+  - 114: {fileID: 11463896}
+  m_Layer: 5
+  m_Name: DemoKitPlayPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &11463896
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 180718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 327104d5b9cd74149be1cf12ac3dc736, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DemoBody:
+    BodyGuid: 
+    SuitGuid: 
+    BodyType: 0
+    LeftArmAnalysis:
+      DeltaTime: 0
+      AngleElbowFlexion: 0
+      SignedAngleElbowFlexion: 0
+      AngleElbowPronation: 0
+      SignedAngleElbowAdduction: 0
+      SignedAngleShoulderFlexion: 0
+      AngleShoulderFlexion: 0
+      AngleShoulderVertAbduction: 0
+      AngleShoulderHorAbduction: 0
+      AngleShoulderRotation: 0
+      AngularVelocityElbowFlexion: 0
+      PeakAngularVelocityElbowFlexion: 0
+      AngularAccelerationElbowFlexion: 0
+      AngularVelocityPronation: 0
+      AngularAccelerationElbowPronation: 0
+      AngularVelocityShoulderFlexion: 0
+      AngularAccelerationShoulderFlexion: 0
+      AngularVelocityShoulderVertAbduction: 0
+      AngularAccelerationShoulderVertAbduction: 0
+      AngularVelocityShoulderHorAbduction: 0
+      AngularAccelerationShoulderHorAbduction: 0
+      AngularVelocityShoulderRotation: 0
+      AngularAccelerationShoulderRotation: 0
+    RightArmAnalysis:
+      DeltaTime: 0
+      AngleElbowFlexion: 0
+      SignedAngleElbowFlexion: 0
+      SignedAngleElbowAdduction: 0
+      AngleElbowPronation: 0
+      SignedAngleShoulderFlexion: 0
+      AngleShoulderFlexion: 0
+      AngleShoulderVertAbduction: 0
+      AngleShoulderHorAbduction: 0
+      AngleShoulderRotation: 0
+      AngleShoulderReference: 0
+      AngleShoulderReferenceXY: 0
+      AngleShoulderReferenceXZ: 0
+      AngleShoulderReferenceYZ: 0
+      AngularVelocityElbowFlexion: 0
+      PeakAngularVelocityElbowFlexion: 0
+      AngularAccelerationElbowFlexion: 0
+      AngularVelocityPronation: 0
+      AngularAccelerationElbowPronation: 0
+      AngularVelocityShoulderFlexion: 0
+      AngularAccelerationShoulderFlexion: 0
+      AngularVelocityShoulderVertAbduction: 0
+      AngularAccelerationShoulderVertAbduction: 0
+      AngularVelocityShoulderHorAbduction: 0
+      AngularAccelerationShoulderHorAbduction: 0
+      AngularVelocityShoulderRotation: 0
+      AngularAccelerationShoulderRotation: 0
+    LeftLegAnalysis:
+      DeltaTime: 0
+      RightLegStride: {x: 0, y: 0, z: 0}
+      LeftLegStride: {x: 0, y: 0, z: 0}
+      AngleKneeFlexion: 0
+      AngleKneeRotation: 0
+      UseGlobalReference: 0
+      AngleHipFlexion: 0
+      AngleHipAbduction: 0
+      AngleHipRotation: 0
+      AngularVelocityKneeFlexion: 0
+      AngularAccelerationKneeFlexion: 0
+      AngularVelocityKneeRotation: 0
+      AngularAccelerationKneeRotation: 0
+      AngularVelocityHipFlexion: 0
+      AngularAccelerationHipFlexion: 0
+      AngularVelocityHipAbduction: 0
+      AngularAccelerationHipAbduction: 0
+      AngularVelocityHipRotation: 0
+      AngularAccelerationHipRotation: 0
+      NumberofSquats: 0
+      AngleSum: 0
+      LegHeight: 0
+    RightLegAnalysis:
+      DeltaTime: 0
+      RightLegStride: {x: 0, y: 0, z: 0}
+      LeftLegStride: {x: 0, y: 0, z: 0}
+      AngleKneeFlexion: 0
+      AngleKneeRotation: 0
+      UseGlobalReference: 0
+      AngleHipFlexion: 0
+      AngleHipAbduction: 0
+      AngleHipRotation: 0
+      AngularVelocityKneeFlexion: 0
+      AngularAccelerationKneeFlexion: 0
+      AngularVelocityKneeRotation: 0
+      AngularAccelerationKneeRotation: 0
+      AngularVelocityHipFlexion: 0
+      AngularAccelerationHipFlexion: 0
+      AngularVelocityHipAbduction: 0
+      AngularAccelerationHipAbduction: 0
+      AngularVelocityHipRotation: 0
+      AngularAccelerationHipRotation: 0
+      NumberofSquats: 0
+      AngleSum: 0
+      LegHeight: 0
+    TorsoAnalysis:
+      DeltaTime: 0
+      TorsoTransform: {fileID: 0}
+      HipGlobalTransform: {fileID: 0}
+      HipTransform: {fileID: 0}
+      KneeTransform: {fileID: 0}
+      AngleTorsoFlexion: 0
+      AngleTorsoLateral: 0
+      AngleTorsoRotation: 0
+      SignedTorsoFlexion: 0
+      AngularAccelerationTorsoFlexion: 0
+      AngularVelocityTorsoFlexion: 0
+      AngularAccelerationTorsoLateral: 0
+      AngularVelocityTorsoLateral: 0
+      AngularAccelerationTorsoRotation: 0
+      AngularVelocityTorsoRotation: 0
+      AngleIntegrationTurns: 0
+      AngleIntegrationFlips: 0
+      NumberOfTurns: 0
+      NumberOfFlips: 0
+    mRenderedBody: {fileID: 0}
+--- !u!224 &22462994
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 180718}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 180718}
+  m_IsPrefabParent: 1
