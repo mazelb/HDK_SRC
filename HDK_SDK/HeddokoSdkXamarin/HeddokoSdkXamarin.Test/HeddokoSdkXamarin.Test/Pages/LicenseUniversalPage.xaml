@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:BasePage xmlns="http://xamarin.com/schemas/2014/forms"
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                xmlns:pages="clr-namespace:HeddokoSdkXamarin.Test.Pages;assembly=HeddokoSdkXamarin.Test"
+                x:Class="HeddokoSdkXamarin.Test.Pages.LicenseUniversalPage"
+                Title="Test Heddoko SDK. License Universal">
+  <ContentPage.Content>
+    <ScrollView Orientation="Vertical" >
+      <StackLayout VerticalOptions="FillAndExpand"
+                   HorizontalOptions="FillAndExpand"
+                   Orientation="Vertical">
+        <Button x:Name="OrganizationsButton" Text="Organizations" Clicked="TestOrganizations" />
+        <Button x:Name="TeamsButton" Text="Teams"  Clicked="TestTeams" />
+        <Button x:Name="RecordsButton" Text="Records" Clicked="TestRecords" />
+        <Button x:Name="ErgoScoresButton" Text="Ergo Scores for organizations" Clicked="TestOrganizasionsErgoScores" />
+      </StackLayout>
+    </ScrollView>
+  </ContentPage.Content>
+</pages:BasePage>

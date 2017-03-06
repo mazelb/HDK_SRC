@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:BasePage xmlns="http://xamarin.com/schemas/2014/forms"
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                xmlns:pages="clr-namespace:HeddokoSdkXamarin.Test.Pages;assembly=HeddokoSdkXamarin.Test"
+                x:Class="HeddokoSdkXamarin.Test.Pages.UserPage"
+                Title="Test Heddoko SDK. User">
+  <ContentPage.Content>
+    <ScrollView Orientation="Vertical" >
+      <StackLayout VerticalOptions="FillAndExpand"
+                   HorizontalOptions="FillAndExpand"
+                   Orientation="Vertical">
+        <Button x:Name="OpenConnectionButton" Text="Open Connection" Clicked="OnOpenConnection" />
+        <Button x:Name="ProfileButton" Text="Profile" Clicked="TestProfile" />
+        <Button x:Name="UploadRecordButton" Text="Upload Record"  Clicked="TestUploadRecord" />
+        <Button x:Name="RecordCollectionButton" Text="Records Collection" Clicked="TestRecordCollection" />
+        <Button x:Name="FirmwareButton" Text="Firmware" Clicked="TestFirmware" />
+        <Button IsEnabled="False" x:Name="SendStreamButton" Text="Stream Sending" Clicked="TestStreamSending" />
+        <Button IsEnabled="False" x:Name="ReceiveStreamButton" Text="Stream Receiving" Clicked="OnStreamReceiving" />
+        <Button IsEnabled="False" x:Name="SubscribeOnNotificationsButton" Text="Subscribe On Getting Notifications" Clicked="TestSubscribeOnGettingNotifications" />
+        <Button x:Name="LatestNotificationsButton" Text="Get Latest Activity" Clicked="TestGetLatestActivity" />
+        <Button x:Name="UnreadNotificationsButton" Text="Get Unread Activity" Clicked="TestGetUnreadActivity" />
+        <Button x:Name="DefaultFirmwareRecordsButton" Text="Default Records" Clicked="TestDefaultFirmwareRecords" />
+        <Button IsEnabled="False" x:Name="CloseConnectionButton" Text="Close connection" Clicked="OnCloseConnection" />
+        <Button x:Name="ErgoScoreButton" Text="Ergo Score" Clicked="TestErgoScore" />
+      </StackLayout>
+    </ScrollView>
+  </ContentPage.Content>
+</pages:BasePage>

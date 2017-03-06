@@ -1,0 +1,25 @@
+﻿extensions: designer.cs generated.cs .resx min.js 
+extensions: .cs .js
+/**
+ * @file %FileName%
+ * @brief Functionalities required to operate it.
+ * @author Sergey Slepokurov (sergey@heddoko.com)
+ * @date %CreationMonth% %CreationYear%
+ * Copyright Heddoko(TM) %CurrentYear%,  all rights reserved
+*/
+extensions: .aspx .ascx .cshtml
+<%-- 
+	@file %FileName%
+	@brief Functionalities required to operate it.
+	@author Sergey Slepokurov (sergey@heddoko.com)
+	@date %CreationMonth% %CreationYear%
+	Copyright Heddoko(TM) %CurrentYear%,  all rights reserved
+--%>
+extensions:  .xml .config .xsd
+<!--
+	@file %FileName%
+	@brief Functionalities required to operate it.
+	@author Sergey Slepokurov (sergey@heddoko.com)
+	@date %CreationMonth% %CreationYear%
+	Copyright Heddoko(TM) %CurrentYear%,  all rights reserved
+-->

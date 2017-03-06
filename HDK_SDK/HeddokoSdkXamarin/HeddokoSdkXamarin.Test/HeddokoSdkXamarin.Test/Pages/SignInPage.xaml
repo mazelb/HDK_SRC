@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:BasePage xmlns="http://xamarin.com/schemas/2014/forms"
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                xmlns:pages="clr-namespace:HeddokoSdkXamarin.Test.Pages;assembly=HeddokoSdkXamarin.Test"
+                x:Class="HeddokoSdkXamarin.Test.Pages.SignInPage"
+                Title="Test Heddoko SDK. Sign in">
+  <ContentPage.Content>
+    <ScrollView Orientation="Vertical" >
+      <StackLayout VerticalOptions="FillAndExpand"
+                   HorizontalOptions="FillAndExpand"
+                   Orientation="Vertical"
+                   Spacing="1">
+        <Button x:Name="SigninButton" Text="Sign in as User" Clicked="OnSignInUser" />
+        <Button x:Name="SigninLicenseUniversalButton" Text="Sign in as License Universal" Clicked="OnSignInLicenseUniversal" />
+      </StackLayout>
+    </ScrollView>
+  </ContentPage.Content>
+</pages:BasePage>

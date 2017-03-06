@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HeddokoSdkXamarin.Test.Pages.TextViewPage"
+             Title="{Binding Title}">
+  <ContentPage.Content>
+    <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+      <Label x:Name="TextLabel" Text="{Binding Text}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+    </ScrollView>
+  </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>  
+<package >  
+  <metadata>
+    <id>HeddokoSdkXamarin</id>
+    <version>1.0.0</version>
+    <authors>Heddoko</authors>
+    <owners>Heddoko</owners>
+    <title>HeddokoSdkXamarin</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Heddoko SDK portable imlementation. Provides methods for interactn with Heddoko API. If you want to use last prerelease version please refer to packages with sufix '-dev'</description>
+    <copyright>Copyright Heddoko 2016</copyright>
+  </metadata>
+</package>  
