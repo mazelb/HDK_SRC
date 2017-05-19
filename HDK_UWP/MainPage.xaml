@@ -8,6 +8,24 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Grid.Row="0" Margin="12,17,10,28">
+            <!--Title-->
+            <TextBlock Text="Login Page" Foreground="Black" FontSize="40"/>
 
+            <!--UserName-->
+            <TextBlock Text="UserID" Foreground="Black" FontSize="30"/>
+            <TextBox  BorderBrush="LightGray" Name="UserName"/>
+
+            <!--Password-->
+            <TextBlock  Foreground="Black" Text="Password" Margin="9,-7,0,0" FontSize="30"/>
+            <PasswordBox BorderBrush="LightGray" Name="PassWord"/>
+
+            <!--Login Button-->
+            <Button Content="Login" Background="#FF30DABB" Name="Login"/>
+
+            <!--  Registration Button-->
+            <Button Content="Registration" Background="#FF30DABB" Name="SignUp"/>
+
+        </StackPanel>
     </Grid>
 </Page>
